@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rahul216.github.io/SBDA-LAB/",
+  "homepage": "https://SBDA.github.io/SBDA-website/",
+
+
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
