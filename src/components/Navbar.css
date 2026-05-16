@@ -9,51 +9,51 @@
   position: relative;
   z-index: 1;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5);
 
+
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
 }
+
 
 .nav-logo {
- 
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  object-fit: cover;
-  
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
 }
+
 
 .nav-logo-link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: block;
   text-decoration: none;
   color: azure;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-left: 260px; /* Leave space for the 250px logo */
 }
 
+
+
 .nav-logo-img {
-  width: 5rem; 
-  height: 5rem;
+  width: 250px; 
+  height: 250px;
+
+
+
   
 }
 
 .nav-logo-text {
-  grid-row: 1;
-  grid-column: 2;
   display: flex;
   align-items: center;
-  
-  height: 50px;
-  padding: 10px 20px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  font-family: Outfit;
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: azure;
-  text-decoration: none;
+  height: 100%;
 }
+
+
+
 
 .nav-content {
   grid-row: 1;
@@ -62,7 +62,9 @@
   align-items: center;
   justify-content: flex-start;
   
-  height: 50px;
+  height: 100%;
+
+
   padding: 10px 20px;
 }
 
@@ -205,18 +207,19 @@
   
 
   .nav-logo-link{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: block;
     text-decoration: none;
     color: azure;
     font-size: 1rem;
-    
+    margin-left: 90px; /* Space for the 80px mobile logo */
   }
+
   .nav-logo-img {
-    width: 4rem;
-    height: 4rem;
+    width: 80px;
+    height: 80px;
 }
+
+
 
   
 
@@ -242,11 +245,12 @@
     padding: 5px;
   }
   .nav-logo-link{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: 0rem;
-    margin-right: 4rem;
-    padding-left: 1rem;
+    margin-left: 90px;
+    padding-left: 0;
   }
+
 
   .hamburger {
     font-size: 25px;

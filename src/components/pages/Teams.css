@@ -73,7 +73,8 @@
   margin-top: 1rem;
 }
 .tl-twitter {
-  background-image: url("../../assets/x-logo.png");
+  background-image: url("../../assets/icon.png");
+
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
@@ -142,7 +143,8 @@
   background-repeat: no-repeat;
 }
 .fm-img2 {
-  background-image: url("../../assets/Priyanka mam.jpeg");
+  background-image: url("../../assets/priyanka mam pic.jpg");
+
   width: 400px;
   height: 400px;
 }

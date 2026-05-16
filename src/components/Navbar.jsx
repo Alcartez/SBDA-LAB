@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Navbar.css";
-import logo5 from "../assets/logo5.png";
+import logo5 from "../assets/NEW_LOGO.jpeg";
+
 
 const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -14,14 +15,17 @@ const Navbar = () => {
     <>
       <div className="nav">
         
-        <div className="nav-logo-text">
+<div className="nav-logo-text">
         <div className="nav-logo">
           <img src={logo5} alt="SBDA Logo" className="nav-logo-img" />
         </div>
           <Link to="/" className="nav-logo-link">
-            Systems Biology & Data Analytics Lab
+            Systems Biology & <br /> Data Analytics Lab
+
+
           </Link>
         </div>
+
         <div className="nav-content">
           <ul className="nav_menu">
             <li className="nav-link">

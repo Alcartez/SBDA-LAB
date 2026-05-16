@@ -1,7 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import logo1 from "../assets/ln logo.png";
-import logo2 from "../assets/x-logo.png";
+import logo2 from "../assets/icon.png";
+
 
 const Footer = () => {
   return (
@@ -22,6 +23,8 @@ const Footer = () => {
         Contact us for training opportunities and other services.
       </p>
       <p className="center">© 2024 SBDA Research Lab. All rights reserved.</p>
+      <p className="credit">Made with love by Rahul Bachheti</p>
+
     </footer>
   );
 };

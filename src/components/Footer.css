@@ -1,4 +1,4 @@
-.footer {
+﻿.footer {
   background-color: #040217;
   color: whitesmoke;
   text-align: center;
@@ -45,4 +45,12 @@
     margin: 5px 10px;
     font-size: 0.9rem;
   }
+}
+
+.credit {
+  font-size: 0.7rem;
+  color: grey;
+  margin-top: 20px !important;
+  text-align: center !important;
+  opacity: 0.6;
 }

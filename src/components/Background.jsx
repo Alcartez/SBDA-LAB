@@ -1,8 +1,9 @@
 import "./Background.css";
 
-import image8 from "../assets/image8.jpg";
-import image6 from "../assets/image9.jpg";
-import image7 from "../assets/image7.jpg";
+import image8 from "../assets/research page.jpg";
+import image6 from "../assets/systems biology.jpg";
+import image7 from "../assets/data analytics.jpg";
+
 
 
 
