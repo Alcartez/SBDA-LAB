@@ -1,4 +1,4 @@
-# Systems Biology & Data Analytics Lab (SBDA-LAB)
+# Systems Biology & Data Analytics Lab
 
 Welcome to the official repository of the **Systems Biology & Data Analytics Lab**. This project is a modern, high-performance web application built to showcase our research, services, and team.
 
