@@ -1,8 +1,10 @@
-// vite.config.js
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react' // (or vue, etc.)
 
 export default defineConfig({
+  // CHANGE THIS LINE:
+  base: '/', // Change from '/SBDA-website/' to just '/'
+  
   plugins: [react()],
-  base: '/SBDA-website/',  
-});
+  // ... rest of your config
+})
